@@ -4,7 +4,7 @@ setup(
     version="1.3",
     name="faster_auto_subtitle",
     packages=find_packages(),
-    py_modules=["auto_subtitle"],
+    py_modules=["faster_auto_subtitle"],
     author="Sergey Chernyaev",
     install_requires=[
         'faster-whisper==1.0.3',
