@@ -21,7 +21,7 @@ setup(
     ],
     description="Automatically generate and embed subtitles into your videos",
     entry_points={
-        'console_scripts': ['faster_auto_subtitle=auto_subtitle.cli:main'],
+        'console_scripts': ['faster_auto_subtitle=faster_auto_subtitle.cli:main'],
     },
     include_package_data=True,
 )
