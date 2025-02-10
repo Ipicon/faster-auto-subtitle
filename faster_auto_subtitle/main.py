@@ -43,7 +43,8 @@ def process(args: dict):
     model_args = {
         "model_size_or_path": model_name,
         "device": args.pop("device"),
-        "compute_type": args.pop("compute_type")
+        "compute_type": args.pop("compute_type"),
+        "download_root": "d:\\faster-models"
     }
     transcribe_model = WhisperAI(model_args, args)
     translate_model = None
